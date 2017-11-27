@@ -7,12 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COP4656MusicApp.Android", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COP4656MusicApp.iOS", "COP4656MusicApp\COP4656MusicApp.iOS\COP4656MusicApp.iOS.csproj", "{8E995F0E-7842-459A-93FE-8CD41F658A13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COP4656MusicApp.UWP", "COP4656MusicApp\COP4656MusicApp.UWP\COP4656MusicApp.UWP.csproj", "{B162A4B4-381A-43B7-A2E5-52706B22FC34}"
-EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "COP4656MusicApp", "COP4656MusicApp\COP4656MusicApp\COP4656MusicApp.shproj", "{F5372CA0-E26E-4DF3-88C1-A10A12EA6402}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		COP4656MusicApp\COP4656MusicApp\COP4656MusicApp.projitems*{33550be4-303a-4759-b681-942a6c85f078}*SharedItemsImports = 4
+		COP4656MusicApp\COP4656MusicApp\COP4656MusicApp.projitems*{8e995f0e-7842-459a-93fe-8cd41f658a13}*SharedItemsImports = 4
 		COP4656MusicApp\COP4656MusicApp\COP4656MusicApp.projitems*{f5372ca0-e26e-4df3-88c1-a10a12ea6402}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -82,30 +82,6 @@ Global
 		{8E995F0E-7842-459A-93FE-8CD41F658A13}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{8E995F0E-7842-459A-93FE-8CD41F658A13}.Release|x64.ActiveCfg = Release|iPhone
 		{8E995F0E-7842-459A-93FE-8CD41F658A13}.Release|x86.ActiveCfg = Release|iPhone
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Debug|ARM.ActiveCfg = Debug|ARM
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Debug|ARM.Build.0 = Debug|ARM
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Debug|ARM.Deploy.0 = Debug|ARM
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Debug|iPhone.ActiveCfg = Debug|x86
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Debug|iPhoneSimulator.ActiveCfg = Debug|x86
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Debug|x64.ActiveCfg = Debug|x64
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Debug|x64.Build.0 = Debug|x64
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Debug|x64.Deploy.0 = Debug|x64
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Debug|x86.ActiveCfg = Debug|x86
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Debug|x86.Build.0 = Debug|x86
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Debug|x86.Deploy.0 = Debug|x86
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Release|Any CPU.ActiveCfg = Release|x86
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Release|ARM.ActiveCfg = Release|ARM
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Release|ARM.Build.0 = Release|ARM
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Release|ARM.Deploy.0 = Release|ARM
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Release|iPhone.ActiveCfg = Release|x86
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Release|iPhoneSimulator.ActiveCfg = Release|x86
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Release|x64.ActiveCfg = Release|x64
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Release|x64.Build.0 = Release|x64
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Release|x64.Deploy.0 = Release|x64
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Release|x86.ActiveCfg = Release|x86
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Release|x86.Build.0 = Release|x86
-		{B162A4B4-381A-43B7-A2E5-52706B22FC34}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
