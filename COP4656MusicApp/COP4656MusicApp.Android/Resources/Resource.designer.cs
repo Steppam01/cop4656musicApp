@@ -51,22 +51,28 @@ namespace COP4656MusicApp.Droid
 			public const int back = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int Icon = 2130837506;
+			public const int happiness = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int img_174171 = 2130837507;
+			public const int Icon = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int pause_button_png_image_80706 = 2130837508;
+			public const int img_174171 = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int play_button = 2130837509;
+			public const int pause_button_png_image_80706 = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int prev_song = 2130837510;
+			public const int play_button = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int stop = 2130837511;
+			public const int prev_song = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int stop = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int sweet = 2130837513;
 			
 			static Drawable()
 			{

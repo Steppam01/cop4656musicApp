@@ -31,7 +31,6 @@ namespace COP4656MusicApp.Droid
             listView.ItemClick += (sender, e) =>
             {
                 var songActivity = new Intent(this, typeof(SongActivity));
-                songActivity.PutExtra("songTitle", songs.GetSong(e.Position));
                 songActivity.PutExtra("songIndex", e.Position);
                 StartActivity(songActivity);
             };
