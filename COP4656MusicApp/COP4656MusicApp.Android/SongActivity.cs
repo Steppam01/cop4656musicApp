@@ -58,6 +58,7 @@ namespace COP4656MusicApp.Droid
                 if(isPaused) mediaPlayer.Start();
                 if(isStopped) StartSong(songs.GetSong(songIndex));
                 isPaused = false;
+                isStopped = false;
             };
 
             nextButton.Click += delegate
