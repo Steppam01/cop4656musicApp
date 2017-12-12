@@ -17,8 +17,10 @@ namespace COP4656MusicApp.Droid
     public class SongActivity : Activity
     {
         MediaPlayer mediaPlayer;
+        MediaRecorder mediaRecorder;
         bool isPaused = false;
         bool isStopped = false;
+        bool isRecording = false;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -37,6 +39,7 @@ namespace COP4656MusicApp.Droid
             ImageButton nextButton = (ImageButton)FindViewById<ImageButton>(Resource.Id.nextSong);
             ImageButton stopButton = (ImageButton)FindViewById<ImageButton>(Resource.Id.stop);
             ImageButton pauseButton = (ImageButton)FindViewById<ImageButton>(Resource.Id.pause);
+            ImageButton recordButton = (ImageButton)FindViewById<ImageButton>(Resource.Id.record);
 
             prevButton.LongClick += delegate
             {
@@ -86,6 +89,38 @@ namespace COP4656MusicApp.Droid
             {
                 if (mediaPlayer.IsPlaying) mediaPlayer.Pause();
                 isPaused = true;
+            };
+
+            recordButton.Click += delegate
+            {
+                if (mediaPlayer.IsPlaying)
+                {
+                    if (!isRecording)
+                    {
+                        mediaRecorder = new MediaRecorder();
+                        isRecording = true;
+                        mediaRecorder.SetAudioSource(AudioSource.Mic);
+                        mediaRecorder.SetOutputFormat(OutputFormat.ThreeGpp);
+                        mediaRecorder.SetOutputFile(Android.OS.Environment.ExternalStorageDirectory + "/" + song + ".3gp");
+                        mediaRecorder.SetAudioEncoder(AudioEncoder.AmrNb);
+                        mediaRecorder.Prepare();
+                        mediaRecorder.Start();
+                    } else
+                    {
+                        isRecording = false;
+
+                        try
+                        {
+                            mediaRecorder.Stop();
+                        } catch(Exception e)
+                        {
+                            Console.WriteLine(e);
+                        }
+
+                        mediaRecorder.Release();
+                        mediaRecorder = null;
+                    }
+                }
             };
 
             backButton.Click += delegate

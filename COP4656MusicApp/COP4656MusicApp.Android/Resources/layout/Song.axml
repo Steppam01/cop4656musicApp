@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/artwork"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="60dp"
         android:layout_marginLeft="60dp"
         android:layout_marginRight="60dp"
         android:minHeight="200dp" />
@@ -67,4 +67,10 @@
             android:background="@drawable/pause_button_png_image_80706"
             android:layout_marginLeft="10dp" />
     </LinearLayout>
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/record"
+        android:background="@drawable/record_button"
+        android:layout_gravity="center" />
 </LinearLayout>

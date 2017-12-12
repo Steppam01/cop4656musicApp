@@ -69,10 +69,13 @@ namespace COP4656MusicApp.Droid
 			public const int prev_song = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int stop = 2130837512;
+			public const int record_button = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int sweet = 2130837513;
+			public const int stop = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int sweet = 2130837514;
 			
 			static Drawable()
 			{
@@ -107,6 +110,9 @@ namespace COP4656MusicApp.Droid
 			
 			// aapt resource value: 0x7f060005
 			public const int prevSong = 2131099653;
+			
+			// aapt resource value: 0x7f06000a
+			public const int record = 2131099658;
 			
 			// aapt resource value: 0x7f060004
 			public const int songTitle = 2131099652;
