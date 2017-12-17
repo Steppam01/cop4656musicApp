@@ -97,6 +97,7 @@ namespace COP4656MusicApp.Droid
                 {
                     if (!isRecording)
                     {
+                        recordButton.BackgroundTintList = GetColorStateList(Resource.Color.red);
                         mediaRecorder = new MediaRecorder();
                         isRecording = true;
                         mediaRecorder.SetAudioSource(AudioSource.Mic);

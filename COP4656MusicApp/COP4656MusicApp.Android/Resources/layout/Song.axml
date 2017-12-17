@@ -72,5 +72,6 @@
         android:layout_height="60dp"
         android:id="@+id/record"
         android:background="@drawable/record_button"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:backgroundTint="#ff000000" />
 </LinearLayout>

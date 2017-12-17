@@ -111,6 +111,9 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xhdpi\record_button.png" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\colors.xml" />
+  </ItemGroup>
   <Import Project="..\COP4656MusicApp\COP4656MusicApp.projitems" Label="Shared" Condition="Exists('..\COP4656MusicApp\COP4656MusicApp.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>
